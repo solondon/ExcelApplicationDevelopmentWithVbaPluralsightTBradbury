@@ -1,0 +1,5 @@
+﻿#define IDH_WELCOME 100
+#define IDH_TOPIC_1 101
+#define IDH_TOPIC_2 102
+#define IDH_CONTEXT_1 1001
+#define IDH_CONTEXT_2 1002

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="cui_onLoad">
+  <ribbon startFromScratch="true">
+    <tabs>
+      <tab id="rxtabTab" getKeytip="tab_getKeytip" getLabel="tab_getLabel" getVisible="tab_getVisible">
+        <group id="rxgrpNoBoxes" getKeytip="grp_getKeytip" getLabel="grp_getLabel" getScreentip="grp_getScreentip" getSupertip="grp_getSupertip" getVisible="grp_getVisible">
+          <button id="rxbtnButton1" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          <button id="rxbtnButton2" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          <button id="rxbtnButton3" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          <button id="rxbtnButton4" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

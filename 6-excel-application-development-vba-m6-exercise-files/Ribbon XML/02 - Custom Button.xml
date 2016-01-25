@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon startFromScratch="true">
+    <tabs>
+      <tab id="rxtabTab" label="My Tab">
+        <group id="rxgrpGroup" label="My Group">
+          <button id="rxbtnButton" imageMso="HappyFace" label="My Button" size="large" onAction="btn_onAction" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

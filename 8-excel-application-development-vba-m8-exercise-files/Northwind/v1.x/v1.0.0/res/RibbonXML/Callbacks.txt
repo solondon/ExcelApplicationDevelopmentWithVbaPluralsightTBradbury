@@ -1,0 +1,11 @@
+'Callback for customUI.onLoad
+Sub cui_onLoad(ribbon As IRibbonUI)
+End Sub
+
+'Callback for rxtabNorthwind getLabel
+Sub tab_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnCustomers onAction
+Sub btn_onAction(control As IRibbonControl)
+End Sub

@@ -1,0 +1,520 @@
+'Callback for customUI.onLoad
+Sub cui_onLoad(ribbon As IRibbonUI)
+End Sub
+
+'Callback for rxtabBoxes getKeytip
+Sub tab_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtabBoxes getLabel
+Sub tab_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtabBoxes getVisible
+Sub tab_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgrpNoBoxes getKeytip
+Sub grp_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgrpNoBoxes getLabel
+Sub grp_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgrpNoBoxes getScreentip
+Sub grp_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgrpNoBoxes getSupertip
+Sub grp_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgrpNoBoxes getVisible
+Sub grp_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getDescription
+Sub btn_getDescription(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getEnabled
+Sub btn_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getImage
+Sub btn_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getKeytip
+Sub btn_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getLabel
+Sub btn_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getScreentip
+Sub btn_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getShowImage
+Sub btn_getShowImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getShowLabel
+Sub btn_getShowLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getSize
+Sub btn_getSize(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getSupertip
+Sub btn_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 getVisible
+Sub btn_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnButton1 onAction
+Sub btn_onAction(control As IRibbonControl)
+End Sub
+
+'Callback for rxboxH1 getVisible
+Sub box_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgrpBasic getImage
+Sub grp_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getDescription
+Sub mnu_getDescription(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getEnabled
+Sub mnu_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getImage
+Sub mnu_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getKeytip
+Sub mnu_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getLabel
+Sub mnu_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getScreentip
+Sub mnu_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getShowImage
+Sub mnu_getShowImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getShowLabel
+Sub mnu_getShowLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getSupertip
+Sub mnu_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmnuMenu getVisible
+Sub mnu_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxmspMenuSeparator getTitle
+Sub msp_getTitle(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxsbtSplitButton getEnabled
+Sub sbt_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxsbtSplitButton getKeytip
+Sub sbt_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxsbtSplitButton getShowLabel
+Sub sbt_getShowLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxsbtSplitButton getSize
+Sub sbt_getSize(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxsbtSplitButton getVisible
+Sub sbt_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getDescription
+Sub tgl_getDescription(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getEnabled
+Sub tgl_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getImage
+Sub tgl_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getKeytip
+Sub tgl_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getLabel
+Sub tgl_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getPressed
+Sub tgl_getPressed(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getScreentip
+Sub tgl_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getShowImage
+Sub tgl_getShowImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getShowLabel
+Sub tgl_getShowLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getSize
+Sub tgl_getSize(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getSupertip
+Sub tgl_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton getVisible
+Sub tgl_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxtglToggleButton onAction
+Sub tgl_onAction(control As IRibbonControl, pressed As Boolean)
+End Sub
+
+'Callback for rxsepBasic1 getVisible
+Sub sep_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxlblLabelControl getEnabled
+Sub lbl_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxlblLabelControl getLabel
+Sub lbl_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxlblLabelControl getScreentip
+Sub lbl_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxlblLabelControl getShowLabel
+Sub lbl_getShowLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxlblLabelControl getSupertip
+Sub lbl_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxlblLabelControl getVisible
+Sub lbl_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbgpTglInd getVisible
+Sub bgp_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkCheckbox getDescription
+Sub chk_getDescription(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkCheckbox getEnabled
+Sub chk_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkCheckbox getKeytip
+Sub chk_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkCheckbox getLabel
+Sub chk_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkCheckbox getPressed
+Sub chk_getPressed(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkCheckbox getScreentip
+Sub chk_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkCheckbox getSupertip
+Sub chk_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkCheckbox getVisible
+Sub chk_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkCheckbox onAction
+Sub chk_onAction(control As IRibbonControl, pressed As Boolean)
+End Sub
+
+'Callback for rxedtEditbox getEnabled
+Sub edt_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox getImage
+Sub edt_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox getKeytip
+Sub edt_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox getLabel
+Sub edt_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox getScreentip
+Sub edt_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox getShowImage
+Sub edt_getShowImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox getShowLabel
+Sub edt_getShowLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox getSupertip
+Sub edt_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox getText
+Sub edt_getText(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox getVisible
+Sub edt_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditbox onChange
+Sub edt_onChange(control As IRibbonControl, text As String)
+End Sub
+
+'Callback for rxdrpDropDown getEnabled
+Sub drp_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getImage
+Sub drp_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getItemCount
+Sub drp_getItemCount(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getItemImage
+Sub drp_getItemImage(control As IRibbonControl, index As Integer, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getItemLabel
+Sub drp_getItemLabel(control As IRibbonControl, index As Integer, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getKeytip
+Sub drp_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getLabel
+Sub drp_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getScreentip
+Sub drp_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getSelectedItemIndex
+Sub drp_getSelectedItemIndex(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getShowImage
+Sub drp_getShowImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getShowLabel
+Sub drp_getShowLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getSupertip
+Sub drp_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown getVisible
+Sub drp_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdrpDropDown onAction
+Sub drp_onAction(control As IRibbonControl, id As String, index As Integer)
+End Sub
+
+'Callback for rxcboCombo getEnabled
+Sub cbo_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getImage
+Sub cbo_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getItemCount
+Sub cbo_getItemCount(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getItemImage
+Sub cbo_getItemImage(control As IRibbonControl, index As Integer, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getItemLabel
+Sub cbo_getItemLabel(control As IRibbonControl, index As Integer, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getKeytip
+Sub cbo_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getLabel
+Sub cbo_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getScreentip
+Sub cbo_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getShowImage
+Sub cbo_getShowImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getShowLabel
+Sub cbo_getShowLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getSupertip
+Sub cbo_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getText
+Sub cbo_getText(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo getVisible
+Sub cbo_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboCombo onChange
+Sub cbo_onChange(control As IRibbonControl, text As String)
+End Sub
+
+'Callback for rxgalGallery getDescription
+Sub gal_getDescription(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getEnabled
+Sub gal_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getImage
+Sub gal_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getItemCount
+Sub gal_getItemCount(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getItemHeight
+Sub gal_getItemHeight(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getItemImage
+Sub gal_getItemImage(control As IRibbonControl, index As Integer, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getItemLabel
+Sub gal_getItemLabel(control As IRibbonControl, index As Integer, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getItemWidth
+Sub gal_getItemWidth(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getKeytip
+Sub gal_getKeytip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getLabel
+Sub gal_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getScreentip
+Sub gal_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getSelectedItemIndex
+Sub gal_getSelectedItemIndex(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getShowImage
+Sub gal_getShowImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getShowLabel
+Sub gal_getShowLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getSize
+Sub gal_getSize(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getSupertip
+Sub gal_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery getVisible
+Sub gal_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxgalGallery onAction
+Sub gal_onAction(control As IRibbonControl, id As String, index As Integer)
+End Sub
+
+'Callback for rxdmnDynamicMenu getContent
+Sub dmn_getContent(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdmnDynamicMenu getImage
+Sub dmn_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdmnDynamicMenu getLabel
+Sub dmn_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxdmnDynamicMenu getSize
+Sub dmn_getSize(control As IRibbonControl, ByRef returnedVal)
+End Sub
+

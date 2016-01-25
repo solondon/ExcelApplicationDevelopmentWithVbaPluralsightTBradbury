@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="cui_onLoad">
+  <ribbon startFromScratch="true">
+    <tabs>
+      <tab id="rxtabBoxes" getKeytip="tab_getKeytip" getLabel="tab_getLabel" getVisible="tab_getVisible">
+        <group id="rxgrpNoBoxes" getKeytip="grp_getKeytip" getLabel="grp_getLabel" getScreentip="grp_getScreentip" getSupertip="grp_getSupertip" getVisible="grp_getVisible">
+          <button id="rxbtnButton1" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          <button id="rxbtnButton2" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          <button id="rxbtnButton3" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          <button id="rxbtnButton4" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+        </group>
+        <group id="rxgrpHBoxes" getKeytip="grp_getKeytip" getLabel="grp_getLabel" getScreentip="grp_getScreentip" getSupertip="grp_getSupertip" getVisible="grp_getVisible">
+          <box id="rxboxH1" boxStyle="horizontal" getVisible="box_getVisible">
+            <button id="rxbtnH1A" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnH1B" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnH1C" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          </box>
+          <box id="rxboxH2" boxStyle="horizontal" getVisible="box_getVisible">
+            <button id="rxbtnH2A" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnH2B" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnH2C" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          </box>
+          <box id="rxboxH3" boxStyle="horizontal" getVisible="box_getVisible">
+            <button id="rxbtnH3A" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnH3B" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnH3C" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          </box>
+        </group>
+        <group id="rxgrpVBoxes" getKeytip="grp_getKeytip" getLabel="grp_getLabel" getScreentip="grp_getScreentip" getSupertip="grp_getSupertip" getVisible="grp_getVisible">
+          <box id="rxboxV1" boxStyle="vertical" getVisible="box_getVisible">
+            <button id="rxbtnV1A" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnV1B" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnV1C" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          </box>
+          <box id="rxboxV2" boxStyle="vertical" getVisible="box_getVisible">
+            <button id="rxbtnV2A" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnV2B" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnV2C" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          </box>
+          <box id="rxboxV3" boxStyle="vertical" getVisible="box_getVisible">
+            <button id="rxbtnV3A" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnV3B" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <button id="rxbtnV3C" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          </box>
+        </group>
+      </tab>
+      <tab id="rxtabBasic" getKeytip="tab_getKeytip" getLabel="tab_getLabel" getVisible="tab_getVisible">
+        <group id="rxgrpBasic" getImage="grp_getImage" getKeytip="grp_getKeytip" getLabel="grp_getLabel" getScreentip="grp_getScreentip" getSupertip="grp_getSupertip" getVisible="grp_getVisible">
+          <button id="rxbtnButton" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSize="btn_getSize" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          <menu id="rxmnuMenu" getDescription="mnu_getDescription" getEnabled="mnu_getEnabled" getImage="mnu_getImage" getKeytip="mnu_getKeytip" getLabel="mnu_getLabel" getScreentip="mnu_getScreentip" getShowImage="mnu_getShowImage" getShowLabel="mnu_getShowLabel" getSupertip="mnu_getSupertip" getVisible="mnu_getVisible">
+            <button id="rxbtnMnuButton1" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            <menuSeparator id="rxmspMenuSeparator" getTitle="msp_getTitle" />
+            <button id="rxbtnMnuButton2" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          </menu>
+          <splitButton id="rxsbtSplitButton" getEnabled="sbt_getEnabled" getKeytip="sbt_getKeytip" getShowLabel="sbt_getShowLabel" getSize="sbt_getSize" getVisible="sbt_getVisible">
+            <button id="rxbtnSbtButton" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSupertip="btn_getSupertip" onAction="btn_onAction" />
+            <menu id="rxmnuSbtMenu" getDescription="mnu_getDescription" getEnabled="mnu_getEnabled" getImage="mnu_getImage" getKeytip="mnu_getKeytip" getLabel="mnu_getLabel" getScreentip="mnu_getScreentip" getShowImage="mnu_getShowImage" getShowLabel="mnu_getShowLabel" getSupertip="mnu_getSupertip" getVisible="mnu_getVisible">
+              <button id="rxbtnSbtMnuButton1" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+              <menuSeparator id="rxmspSbtMenuSeparator" getTitle="msp_getTitle" />
+              <button id="rxbtnSbtMnuButton2" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+              <button id="rxbtnSbtMnuButton3" getDescription="btn_getDescription" getEnabled="btn_getEnabled" getImage="btn_getImage" getKeytip="btn_getKeytip" getLabel="btn_getLabel" getScreentip="btn_getScreentip" getShowImage="btn_getShowImage" getShowLabel="btn_getShowLabel" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+            </menu>
+          </splitButton>
+          <toggleButton id="rxtglToggleButton" getDescription="tgl_getDescription" getEnabled="tgl_getEnabled" getImage="tgl_getImage" getKeytip="tgl_getKeytip" getLabel="tgl_getLabel" getPressed="tgl_getPressed" getScreentip="tgl_getScreentip" getShowImage="tgl_getShowImage" getShowLabel="tgl_getShowLabel" getSize="tgl_getSize" getSupertip="tgl_getSupertip" getVisible="tgl_getVisible" onAction="tgl_onAction" />
+          <separator id="rxsepBasic1" getVisible="sep_getVisible" />
+          <box id="rxboxVBtnGrp" boxStyle="vertical" getVisible="box_getVisible">
+            <labelControl id="rxlblLabelControl" getEnabled="lbl_getEnabled" getLabel="lbl_getLabel" getScreentip="lbl_getScreentip" getShowLabel="lbl_getShowLabel" getSupertip="lbl_getSupertip" getVisible="lbl_getVisible" />
+            <buttonGroup id="rxbgpTglInd" getVisible="bgp_getVisible">
+              <toggleButton id="rxtglBold" imageMso="Bold" getDescription="tgl_getDescription" getEnabled="tgl_getEnabled" getKeytip="tgl_getKeytip" getPressed="tgl_getPressed" getScreentip="tgl_getScreentip" getSupertip="tgl_getSupertip" getVisible="tgl_getVisible" onAction="tgl_onAction" />
+              <toggleButton id="rxtglItalic" imageMso="Italic" getDescription="tgl_getDescription" getEnabled="tgl_getEnabled" getKeytip="tgl_getKeytip" getPressed="tgl_getPressed" getScreentip="tgl_getScreentip" getSupertip="tgl_getSupertip" getVisible="tgl_getVisible" onAction="tgl_onAction" />
+              <toggleButton id="rxtglUnderline" imageMso="Underline" getDescription="tgl_getDescription" getEnabled="tgl_getEnabled" getKeytip="tgl_getKeytip" getPressed="tgl_getPressed" getScreentip="tgl_getScreentip" getSupertip="tgl_getSupertip" getVisible="tgl_getVisible" onAction="tgl_onAction" />
+            </buttonGroup>
+            <buttonGroup id="rxbgpTglMutex" getVisible="bgp_getVisible">
+              <toggleButton id="rxtglAlignLeft" imageMso="AlignLeft" getDescription="tgl_getDescription" getEnabled="tgl_getEnabled" getKeytip="tgl_getKeytip" getPressed="tgl_getPressed" getScreentip="tgl_getScreentip" getSupertip="tgl_getSupertip" getVisible="tgl_getVisible" onAction="tgl_onAction" />
+              <toggleButton id="rxtglAlignCenter" imageMso="AlignCenter" getDescription="tgl_getDescription" getEnabled="tgl_getEnabled" getKeytip="tgl_getKeytip" getPressed="tgl_getPressed" getScreentip="tgl_getScreentip" getSupertip="tgl_getSupertip" getVisible="tgl_getVisible" onAction="tgl_onAction" />
+              <toggleButton id="rxtglAlignRight" imageMso="AlignRight" getDescription="tgl_getDescription" getEnabled="tgl_getEnabled" getKeytip="tgl_getKeytip" getPressed="tgl_getPressed" getSupertip="tgl_getSupertip" getVisible="tgl_getVisible" onAction="tgl_onAction" />
+            </buttonGroup>
+          </box>
+          <separator id="rxsepBasic2" getVisible="sep_getVisible" />
+          <checkBox id="rxchkCheckbox" getDescription="chk_getDescription" getEnabled="chk_getEnabled" getKeytip="chk_getKeytip" getLabel="chk_getLabel" getPressed="chk_getPressed" getScreentip="chk_getScreentip" getSupertip="chk_getSupertip" getVisible="chk_getVisible" onAction="chk_onAction" />
+          <dialogBoxLauncher>
+            <button id="rxbtnDBLButton" getEnabled="btn_getEnabled" getKeytip="btn_getKeytip" getScreentip="btn_getScreentip" getSupertip="btn_getSupertip" getVisible="btn_getVisible" onAction="btn_onAction" />
+          </dialogBoxLauncher>
+        </group>
+      </tab>
+      <tab id="rxtabAdvanced" getKeytip="tab_getKeytip" getLabel="tab_getLabel" getVisible="tab_getVisible">
+        <group id="rxgrpAdvanced" getImage="grp_getImage" getKeytip="grp_getKeytip" getLabel="grp_getLabel" getScreentip="grp_getScreentip" getSupertip="grp_getSupertip" getVisible="grp_getVisible">
+          <editBox id="rxedtEditbox" maxLength="10" sizeString="WWWWWWWWWW" getEnabled="edt_getEnabled" getImage="edt_getImage" getKeytip="edt_getKeytip" getLabel="edt_getLabel" getScreentip="edt_getScreentip" getShowImage="edt_getShowImage" getShowLabel="edt_getShowLabel" getSupertip="edt_getSupertip" getText="edt_getText" getVisible="edt_getVisible" onChange="edt_onChange" />
+          <dropDown id="rxdrpDropDown" showItemImage="true" showItemLabel="true" sizeString="WWWWWWWWWW" getEnabled="drp_getEnabled" getImage="drp_getImage" getItemCount="drp_getItemCount" getItemID="drp_getItemID" getItemImage="drp_getItemImage" getItemLabel="drp_getItemLabel" getItemScreentip="drp_getItemScreentip" getItemSupertip="drp_getItemSupertip" getKeytip="drp_getKeytip" getLabel="drp_getLabel" getScreentip="drp_getScreentip" getSelectedItemIndex="drp_getSelectedItemIndex" getShowImage="drp_getShowImage" getShowLabel="drp_getShowLabel" getSupertip="drp_getSupertip" getVisible="drp_getVisible" onAction="drp_onAction" />
+          <dropDown id="rxdrpButton" sizeString="WWWWWWWWWW" getImage="drp_getImage" getLabel="drp_getLabel">
+            <button id="rxbtndrpButton" getLabel="btn_getLabel" getImage="btn_getImage" onAction="btn_onAction" />
+          </dropDown>
+          <comboBox id="rxcboCombo" maxLength="10" sizeString="WWWWWWWWWW" getEnabled="cbo_getEnabled" getImage="cbo_getImage" getItemCount="cbo_getItemCount" getItemID="cbo_getItemID" getItemImage="cbo_getItemImage" getItemLabel="cbo_getItemLabel" getItemScreentip="cbo_getItemScreentip" getItemSupertip="cbo_getItemSupertip" getKeytip="cbo_getKeytip" getLabel="cbo_getLabel" getScreentip="cbo_getScreentip" getShowImage="cbo_getShowImage" getShowLabel="cbo_getShowLabel" getSupertip="cbo_getSupertip" getText="cbo_getText" getVisible="cbo_getVisible" onChange="cbo_onChange" />
+          <gallery id="rxgalGallery" columns="3" rows="4" getDescription="gal_getDescription" getEnabled="gal_getEnabled" getImage="gal_getImage" getItemCount="gal_getItemCount" getItemHeight="gal_getItemHeight" getItemID="gal_getItemID" getItemImage="gal_getItemImage" getItemLabel="gal_getItemLabel" getItemScreentip="gal_getItemScreentip" getItemSupertip="gal_getItemSupertip" getItemWidth="gal_getItemWidth" getKeytip="gal_getKeytip" getLabel="gal_getLabel" getScreentip="gal_getScreentip" getSelectedItemIndex="gal_getSelectedItemIndex" getShowImage="gal_getShowImage" getShowLabel="gal_getShowLabel" getSize="gal_getSize" getSupertip="gal_getSupertip" getVisible="gal_getVisible" onAction="gal_onAction"></gallery>
+          <gallery id="rxgalImages" columns="2" itemHeight="120" itemWidth="192" rows="3" getImage="gal_getImage" getLabel="gal_getLabel" onAction="gal_onAction">
+            <item id="rxitmImg1" image="img1" />
+            <item id="rxitmImg2" image="img2" />
+            <item id="rxitmImg3" image="img3" />
+            <item id="rxitmImg4" image="img4" />
+            <item id="rxitmImg5" image="img5" />
+          </gallery>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

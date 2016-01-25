@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="cui_onLoad">
+  <ribbon>
+    <tabs>
+      <tab id="rxtabNorthwind" getLabel="tab_getLabel">
+        <group id="rxgrpWorksheets" label="Worksheets">
+          <button id="rxbtnCustomers" imageMso="AccessTableContacts" label="Customers" size="large" onAction="btn_onAction" />
+          <button id="rxbtnEmployees" imageMso="MeetingsWorkspace" label="Employees" size="large" onAction="btn_onAction" />
+          <button id="rxbtnOrders" imageMso="AccessTableAssets" label="Orders" size="large" onAction="btn_onAction" />
+          <button id="rxbtnOrderDetails" imageMso="AccessTableIssues" label="Order Details" size="large" onAction="btn_onAction" />
+          <button id="rxbtnProducts" imageMso="LookUp" label="Products" size="large" onAction="btn_onAction"></button>
+          <button id="rxbtnCategories" imageMso="AppointmentColorDialog" label="Categories" size="large" onAction="btn_onAction" />
+          <button id="rxbtnSuppliers" imageMso="AutoDial" label="Suppliers" size="large" onAction="btn_onAction" />
+          <button id="rxbtnShippers" imageMso="StartAfterPrevious" label="Shippers" size="large" onAction="btn_onAction" />
+          <button id="rxbtnCountries" imageMso="ShowTimeZones" label="Countries" size="large" onAction="btn_onAction" />
+          <button id="rxbtnRegions" imageMso="OutlookGlobe" label="Regions" size="large" onAction="btn_onAction" />
+        </group>
+        <group id="rxgrpSystem" label="System">
+          <button id="rxbtnAbout" imageMso="Info" label="About" size="large" onAction="btn_onAction" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

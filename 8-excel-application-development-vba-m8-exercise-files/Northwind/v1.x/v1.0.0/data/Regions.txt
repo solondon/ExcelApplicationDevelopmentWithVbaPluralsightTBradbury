@@ -1,0 +1,19 @@
+Country	Region
+Brazil	RJ
+Brazil	SP
+Canada	BC
+Canada	Québec
+Ireland	Co. Cork
+UK	Isle of Wight
+USA	AK
+USA	CA
+USA	ID
+USA	MT
+USA	NM
+USA	OR
+USA	WA
+USA	WY
+Venezuela	DF
+Venezuela	Lara
+Venezuela	Nueva Esparta
+Venezuela	Táchira

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" xmlns:x="SharedNamespaceDemo">
+  <ribbon>
+    <tabs>
+      <tab idQ="x:rxtabShared" insertAfterMso="TabAddIns" getLabel="tab_getLabel" getVisible="tab_getVisible">
+        <group id="rxgrpCustom1" insertBeforeQ="x:rxgrpCustom4" label="Custom 1">
+          <button id="rxbtnCustom1" imageMso="HappyFace" label="Custom 1" size="large" onAction="btn_onAction" />
+        </group>
+        <group idQ="x:rxgrpCustom2" label="Custom 2">
+          <button id="rxbtnCustom2" imageMso="HappyFace" label="Custom 2" size="large" onAction="btn_onAction" />
+        </group>
+        <group idQ="x:rxgrpCustom3" label="Custom 3">
+          <menu idQ="x:rxmnuCustom" imageMso="ShapeSmileyFace" label="Shared Menu" size="large">
+            <button id="rxbtnCustom3" imageMso="HappyFace" label="Custom 3" onAction="btn_onAction" />
+          </menu>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
